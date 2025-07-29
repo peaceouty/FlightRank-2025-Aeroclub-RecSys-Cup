@@ -1,0 +1,206 @@
+70.9s 1 /usr/local/lib/python3.10/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+70.9s 2 from .autonotebook import tqdm as notebook_tqdm
+70.9s 3 
+70.9s 4 /usr/local/lib/python3.10/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+70.9s 5 from .autonotebook import tqdm as notebook_tqdm
+139.1s 6 Adding advanced business traveler features...
+144.0s 7 Advanced business traveler features added successfully!
+144.0s 8 Key improvements:
+144.0s 9 - Corporate policy compliance and tax efficiency
+144.0s 10 - Advanced time preferences for business travelers
+144.0s 11 - Seat scarcity and availability features
+144.0s 12 - Cancellation/exchange policy flexibility
+144.0s 13 - Premium carrier and aircraft preferences
+144.0s 14 - Hub airport and route optimization
+144.0s 15 - Strategic business value interactions
+144.0s 16 - Safe feature creation with proper dependency ordering
+144.0s 17 - Targeting 0.5+ Kaggle score with business insights
+148.2s 18 Using 180 features (35 categorical)
+148.2s 19 CatBoost categorical indices: 35 features
+148.2s 20 Performing FIXED Early CatBoost Validation...
+148.2s 21 catboost_cat_indices found: 35 categorical features
+148.2s 22 Indices: [0, 1, 2, 3, 7, 8, 9, 13, 15, 16]...
+148.2s 23 All 35 categorical features found in dataset
+148.2s 24 Testing CatBoost Pool creation with EXACT SAME logic as actual training...
+148.2s 25 Applying EXACT SAME unified categorical encoding as actual training...
+148.2s 26 Processing categorical feature: nationality
+148.3s 27 Processing categorical feature: searchRoute
+148.3s 28 Processing categorical feature: corporateTariffCode
+148.3s 29 Processing categorical feature: bySelf
+148.3s 30 Processing categorical feature: sex
+148.3s 31 Processing categorical feature: companyID
+148.3s 32 Processing categorical feature: legs0_segments0_aircraft_code
+148.3s 33 Processing categorical feature: legs0_segments0_arrivalTo_airport_city_iata
+148.3s 34 Processing categorical feature: legs0_segments0_arrivalTo_airport_iata
+148.3s 35 Processing categorical feature: legs0_segments0_departureFrom_airport_iata
+148.3s 36 Processing categorical feature: legs0_segments0_marketingCarrier_code
+148.3s 37 Processing categorical feature: legs0_segments0_operatingCarrier_code
+148.3s 38 Processing categorical feature: legs0_segments0_flightNumber
+148.3s 39 Processing categorical feature: legs0_segments1_aircraft_code
+148.3s 40 Processing categorical feature: legs0_segments1_arrivalTo_airport_city_iata
+148.3s 41 Processing categorical feature: legs0_segments1_arrivalTo_airport_iata
+148.3s 42 Processing categorical feature: legs0_segments1_departureFrom_airport_iata
+148.3s 43 Processing categorical feature: legs0_segments1_marketingCarrier_code
+148.3s 44 Processing categorical feature: legs0_segments1_operatingCarrier_code
+148.4s 45 Processing categorical feature: legs0_segments1_flightNumber
+148.4s 46 Processing categorical feature: legs1_segments0_aircraft_code
+148.4s 47 Processing categorical feature: legs1_segments0_arrivalTo_airport_city_iata
+148.4s 48 Processing categorical feature: legs1_segments0_arrivalTo_airport_iata
+148.4s 49 Processing categorical feature: legs1_segments0_departureFrom_airport_iata
+148.4s 50 Processing categorical feature: legs1_segments0_marketingCarrier_code
+148.4s 51 Processing categorical feature: legs1_segments0_operatingCarrier_code
+148.4s 52 Processing categorical feature: legs1_segments0_flightNumber
+148.4s 53 Processing categorical feature: legs1_segments1_aircraft_code
+148.4s 54 Processing categorical feature: legs1_segments1_arrivalTo_airport_city_iata
+148.4s 55 Processing categorical feature: legs1_segments1_arrivalTo_airport_iata
+148.4s 56 Processing categorical feature: legs1_segments1_departureFrom_airport_iata
+148.4s 57 Processing categorical feature: legs1_segments1_marketingCarrier_code
+148.4s 58 Processing categorical feature: legs1_segments1_operatingCarrier_code
+148.4s 59 Processing categorical feature: legs1_segments1_flightNumber
+148.4s 60 Processing categorical feature: price_bucket
+149.1s 61 Sample data shape: (1000, 180)
+149.1s 62 Categorical indices: [0, 1, 2, 3, 7]...
+149.1s 63 Cat feature 0 (col 0, 'bySelf'): dtype=int32, sample=[0, 0, 0]
+149.1s 64 Cat feature 1 (col 1, 'companyID'): dtype=int32, sample=[7, 7, 7]
+149.1s 65 Cat feature 2 (col 2, 'corporateTariffCode'): dtype=int32, sample=[0, 7, 0]
+149.1s 66 CatBoost Pool created successfully with EXACT SAME logic as training!
+149.1s 67 Sample size: 1000 rows
+149.1s 68 Features: 180 columns
+149.1s 69 Categorical features: 35 indices
+149.1s 70 Data types verified: mixed int32/float32 compatible with CatBoost
+150.0s 71 CatBoost model training test successful with EXACT SAME logic!
+150.0s 72 Predictions shape: (1000,)
+150.0s 73 Sample predictions: [ 0.85018012  0.17829717 -0.08035397 -0.0805669  -0.0805669 ]
+150.0s 74 No data type conflicts detected!
+150.0s 75 
+150.0s 76 Early CatBoost Validation PASSED with FIXED mixed-type handling!
+150.0s 77 All CatBoost components verified and working
+150.0s 78 Data type processing EXACTLY matches actual training
+150.0s 79 No late-stage errors expected during actual training
+150.0s 80 Safe to proceed with full model training pipeline
+150.0s 81 ============================================================
+214.3s 82 
+214.3s 83 Training XGBoost with v2 business-optimized parameters...
+214.3s 84 V2 optimizations for better convergence:
+214.3s 85 - Reduced depth (8) to prevent slight overfitting
+214.3s 86 - Improved sampling rates for better generalization
+214.3s 87 - Fine-tuned regularization for optimal expressiveness
+214.3s 88 - Adjusted learning rate for faster convergence
+228.0s 89 [0]	train-ndcg@3:0.78564	val-ndcg@3:0.80987
+285.3s 90 [50]	train-ndcg@3:0.81576	val-ndcg@3:0.83376
+346.2s 91 [100]	train-ndcg@3:0.82366	val-ndcg@3:0.83657
+410.1s 92 [150]	train-ndcg@3:0.83067	val-ndcg@3:0.83838
+474.5s 93 [200]	train-ndcg@3:0.83721	val-ndcg@3:0.83973
+538.6s 94 [250]	train-ndcg@3:0.84342	val-ndcg@3:0.84100
+602.0s 95 [300]	train-ndcg@3:0.84874	val-ndcg@3:0.84202
+660.7s 96 [350]	train-ndcg@3:0.85386	val-ndcg@3:0.84297
+720.9s 97 [400]	train-ndcg@3:0.85807	val-ndcg@3:0.84337
+776.6s 98 [450]	train-ndcg@3:0.86272	val-ndcg@3:0.84341
+831.7s 99 [500]	train-ndcg@3:0.86614	val-ndcg@3:0.84329
+891.6s 100 [550]	train-ndcg@3:0.86971	val-ndcg@3:0.84374
+941.9s 101 [600]	train-ndcg@3:0.87300	val-ndcg@3:0.84386
+1002.2s 102 [650]	train-ndcg@3:0.87562	val-ndcg@3:0.84408
+1046.3s 103 [700]	train-ndcg@3:0.87778	val-ndcg@3:0.84422
+1101.6s 104 [750]	train-ndcg@3:0.88063	val-ndcg@3:0.84426
+1157.0s 105 [800]	train-ndcg@3:0.88340	val-ndcg@3:0.84430
+1206.1s 106 [850]	train-ndcg@3:0.88546	val-ndcg@3:0.84451
+1257.9s 107 [900]	train-ndcg@3:0.88773	val-ndcg@3:0.84500
+1312.2s 108 [950]	train-ndcg@3:0.89052	val-ndcg@3:0.84522
+1366.8s 109 [1000]	train-ndcg@3:0.89354	val-ndcg@3:0.84484
+1412.3s 110 [1042]	train-ndcg@3:0.89669	val-ndcg@3:0.84534
+1412.5s 111 Creating LightGBM Datasets...
+1412.5s 112 LightGBM Datasets created successfully.
+1414.4s 113 
+1414.4s 114 Training LightGBM model with v2 business-optimized parameters...
+1414.4s 115 V2 business feature optimizations:
+1414.4s 116 - Reduced leaves (140) and depth (10) to prevent overfitting
+1414.4s 117 - Lower learning rate (0.15) for better stability
+1414.4s 118 - Increased regularization (L1=0.006, L2=7.5) for generalization
+1414.4s 119 - Conservative sampling for better model robustness
+1541.7s 120 Training until validation scores don't improve for 130 rounds
+1586.5s 121 [50]	training's ndcg@3: 0.838298	valid_1's ndcg@3: 0.839591
+1633.8s 122 [100]	training's ndcg@3: 0.858681	valid_1's ndcg@3: 0.841336
+1678.8s 123 [150]	training's ndcg@3: 0.873883	valid_1's ndcg@3: 0.841788
+1717.0s 124 [200]	training's ndcg@3: 0.88456	valid_1's ndcg@3: 0.842278
+1763.6s 125 [250]	training's ndcg@3: 0.894915	valid_1's ndcg@3: 0.841154
+1799.9s 126 [300]	training's ndcg@3: 0.903706	valid_1's ndcg@3: 0.842088
+1841.1s 127 [350]	training's ndcg@3: 0.911544	valid_1's ndcg@3: 0.840891
+1878.9s 128 [400]	training's ndcg@3: 0.918839	valid_1's ndcg@3: 0.840583
+1887.0s 129 Early stopping, best iteration is:
+1887.0s 130 [282]	training's ndcg@3: 0.900754	valid_1's ndcg@3: 0.842607
+1887.8s 131 [LightGBM] [Fatal] Reducing `min_data_in_leaf` with `feature_pre_filter=true` may cause unexpected behaviour for features that were pre-filtered by the larger `min_data_in_leaf`.
+1887.8s 132 You need to set `feature_pre_filter=false` to dynamically change the `min_data_in_leaf`.
+1887.8s 133 
+1887.8s 134 --- Training LightGBM DART Model ---
+1887.8s 135 
+1887.8s 136 Training Enhanced LightGBM DART model (v2)...
+1887.8s 137 V2 DART optimizations:
+1887.8s 138 - Refined learning rate (0.045) for better convergence
+1887.8s 139 - Increased capacity (60 leaves) with depth control (12)
+1887.8s 140 - Optimized DART dropout balance (0.075 rate, 0.48 skip)
+1887.8s 141 - Added regularization for better generalization
+1887.8s 142 [LightGBM] [Fatal] Reducing `min_data_in_leaf` with `feature_pre_filter=true` may cause unexpected behaviour for features that were pre-filtered by the larger `min_data_in_leaf`.
+1887.8s 143 You need to set `feature_pre_filter=false` to dynamically change the `min_data_in_leaf`.
+1887.8s 144 
+1887.8s 145 [LightGBM] [Fatal] Reducing `min_data_in_leaf` with `feature_pre_filter=true` may cause unexpected behaviour for features that were pre-filtered by the larger `min_data_in_leaf`.
+1887.8s 146 You need to set `feature_pre_filter=false` to dynamically change the `min_data_in_leaf`.
+1887.9s 147 [LightGBM] [Fatal] Reducing `min_data_in_leaf` with `feature_pre_filter=true` may cause unexpected behaviour for features that were pre-filtered by the larger `min_data_in_leaf`.
+1887.9s 148 You need to set `feature_pre_filter=false` to dynamically change the `min_data_in_leaf`.
+1889.1s 149 [LightGBM] [Fatal] Reducing `min_data_in_leaf` with `feature_pre_filter=true` may cause unexpected behaviour for features that were pre-filtered by the larger `min_data_in_leaf`.
+1889.1s 150 You need to set `feature_pre_filter=false` to dynamically change the `min_data_in_leaf`.
+1889.1s 151 
+1889.1s 152 [LightGBM] [Fatal] Reducing `min_data_in_leaf` with `feature_pre_filter=true` may cause unexpected behaviour for features that were pre-filtered by the larger `min_data_in_leaf`.
+1889.1s 153 You need to set `feature_pre_filter=false` to dynamically change the `min_data_in_leaf`.
+2021.8s 154 /usr/local/lib/python3.10/site-packages/lightgbm/callback.py:333: UserWarning: Early stopping is not available in dart mode
+2021.8s 155 _log_warning("Early stopping is not available in dart mode")
+2021.8s 156 
+2021.8s 157 /usr/local/lib/python3.10/site-packages/lightgbm/callback.py:333: UserWarning: Early stopping is not available in dart mode
+2021.8s 158 _log_warning("Early stopping is not available in dart mode")
+2056.8s 159 [50]	valid_0's ndcg@3: 0.826599
+2103.4s 160 [100]	valid_0's ndcg@3: 0.829285
+2154.4s 161 [150]	valid_0's ndcg@3: 0.830514
+2214.6s 162 [200]	valid_0's ndcg@3: 0.831999
+2270.8s 163 [250]	valid_0's ndcg@3: 0.834289
+2347.8s 164 [300]	valid_0's ndcg@3: 0.834768
+2425.1s 165 [350]	valid_0's ndcg@3: 0.835424
+2507.9s 166 [400]	valid_0's ndcg@3: 0.836063
+2595.0s 167 [450]	valid_0's ndcg@3: 0.837309
+2694.6s 168 [500]	valid_0's ndcg@3: 0.836952
+2817.8s 169 [550]	valid_0's ndcg@3: 0.837339
+2911.8s 170 [600]	valid_0's ndcg@3: 0.838046
+3024.5s 171 [650]	valid_0's ndcg@3: 0.838453
+3129.7s 172 [700]	valid_0's ndcg@3: 0.839325
+3235.4s 173 [750]	valid_0's ndcg@3: 0.839923
+3358.1s 174 [800]	valid_0's ndcg@3: 0.840273
+3468.6s 175 [850]	valid_0's ndcg@3: 0.840311
+3598.2s 176 [900]	valid_0's ndcg@3: 0.840903
+3713.8s 177 [950]	valid_0's ndcg@3: 0.841412
+3833.6s 178 [1000]	valid_0's ndcg@3: 0.841571
+3957.5s 179 [1050]	valid_0's ndcg@3: 0.841679
+4063.7s 180 [1100]	valid_0's ndcg@3: 0.842276
+4188.1s 181 [1150]	valid_0's ndcg@3: 0.842249
+4313.7s 182 [1200]	valid_0's ndcg@3: 0.842248
+4431.1s 183 [1250]	valid_0's ndcg@3: 0.842623
+4554.2s 184 [1300]	valid_0's ndcg@3: 0.842513
+4663.6s 185 [1350]	valid_0's ndcg@3: 0.842651
+4791.2s 186 [1400]	valid_0's ndcg@3: 0.842489
+4901.5s 187 [1450]	valid_0's ndcg@3: 0.842229
+5006.0s 188 [1500]	valid_0's ndcg@3: 0.842906
+5118.2s 189 [1550]	valid_0's ndcg@3: 0.843373
+5237.4s 190 [1600]	valid_0's ndcg@3: 0.842931
+5365.8s 191 [1650]	valid_0's ndcg@3: 0.843108
+5462.6s 192 [1700]	valid_0's ndcg@3: 0.843577
+5572.7s 193 [1750]	valid_0's ndcg@3: 0.844182
+5685.6s 194 [1800]	valid_0's ndcg@3: 0.844068
+5774.9s 195 [1850]	valid_0's ndcg@3: 0.843944
+5894.0s 196 [1900]	valid_0's ndcg@3: 0.843679
+6001.9s 197 [1950]	valid_0's ndcg@3: 0.843263
+6105.4s 198 [2000]	valid_0's ndcg@3: 0.843664
+6227.2s 199 [2050]	valid_0's ndcg@3: 0.843839
+6347.9s 200 [2100]	valid_0's ndcg@3: 0.844111
+6457.6s 201 [2150]	valid_0's ndcg@3: 0.844119
+6574.9s 202 [2200]	valid_0's ndcg@3: 0.844405
+6724.6s 203 [2250]	valid_0's ndcg@3: 0.844383
+6826.6s 204 [2300]	valid_0's ndcg@3: 0.844701
+6906.9s 205 [2350]	valid_0's ndcg@3: 0.844149
+7156.7s 206 [2400]	valid_0's ndcg@3: 0.844231
